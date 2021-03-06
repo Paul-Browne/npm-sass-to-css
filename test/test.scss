@@ -1,0 +1,8 @@
+@import "./nested/inc.scss";
+
+.hello{
+	.world{
+		display:flex;
+		color: $colorBlack;
+	}
+}

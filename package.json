@@ -1,0 +1,32 @@
+{
+  "name": "x-to-css",
+  "version": "1.0.2",
+  "description": "convert sass/scss/less to css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paul-Browne/npm-sass-to-css.git"
+  },
+  "author": "Paul Browne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Paul-Browne/npm-sass-to-css/issues"
+  },
+  "homepage": "https://github.com/Paul-Browne/npm-sass-to-css#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "cssnano": "^4.1.10",
+    "less": "^4.1.1",
+    "mime-types": "^2.1.29",
+    "postcss": "^8.2.6",
+    "sass": "^1.32.8"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "IE 10"
+  ]
+}
