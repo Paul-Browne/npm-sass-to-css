@@ -1,6 +1,6 @@
 {
   "name": "x-to-css",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "convert sass/scss/less to css",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/Paul-Browne/npm-sass-to-css.git"
   },
+  "files": [
+    "*",
+    "!/test",
+    "!test.js",
+    "!/.git",
+    "!.gitignore"
+  ],  
   "author": "Paul Browne",
   "license": "MIT",
   "bugs": {
