@@ -48,7 +48,7 @@ const resultToMapAndCss = (err, result, inPath, outPath, maps) => {
 }
 
 module.exports = (inPath, outPath, options) => {
-	const maps = options && options.sourceMaps;
+	const maps = options && options.maps;
 	if(type(inPath) === 'less'){
 		less.render(fs.readFileSync(inPath, 'utf8'), { sourceMap: {} }, (err, result) => {
 		    resultToMapAndCss(err, result, inPath, outPath, maps);

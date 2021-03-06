@@ -3,7 +3,7 @@ var XtoCss = require('.');
 const now = Date.now();
 // scss to css
 XtoCss("test/test.scss", "dist/path/to/dist.css", {
-	sourceMaps: true
+	maps: true
 });
 
 // css to css
