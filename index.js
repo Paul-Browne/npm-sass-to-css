@@ -23,7 +23,7 @@ const makeFile = async (path, contents, cb) => {
 	if (contents) {
 		await mkdir(dirname(path), { recursive: true });
 		await writeFile(path, contents);
-		await cb(path, contents)
+		await cb(path, contents);
 	}
 };
 
@@ -41,7 +41,6 @@ const processCss = async (css, inPath, outPath, maps, cb) => {
 const resultToMapAndCss = async (err, result, inPath, outPath, maps, cb) => {
 	if (err) throw err;
 	if (maps && result.map && JSON.parse(result.map).mappings) {
-		cb()
 		await makeFile(outPath + ".map", result.map, cb);
 	}
 	await processCss(result.css, inPath, outPath, maps, cb);
