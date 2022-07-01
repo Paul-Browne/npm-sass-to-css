@@ -1,6 +1,6 @@
 {
   "name": "x-to-css",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "convert sass/scss/less to css",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "!test.js",
     "!/.git",
     "!.gitignore"
-  ],  
+  ],
   "author": "Paul Browne",
   "license": "MIT",
   "bugs": {

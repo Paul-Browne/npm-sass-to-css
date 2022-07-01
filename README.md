@@ -13,7 +13,10 @@ or
 const XtoCss = require("x-to-css");
 
 XtoCss("test/test.scss", "path/to/dist.css", {
-	maps: true
+	maps: true,
+	callback: function(path, contents){
+		// pass the path and contents
+	}
 });
 //=> will output minified autoprefixed css to path/to/dist.css
 //=> and a sourceMap to path/to/dist.css.map
