@@ -23,7 +23,9 @@ const makeFile = async (path, contents, cb) => {
 	if (contents) {
 		await mkdir(dirname(path), { recursive: true });
 		await writeFile(path, contents);
-		await cb(path, contents);
+		if (cb) {
+			await cb(path, contents);
+		}
 	}
 };
 
