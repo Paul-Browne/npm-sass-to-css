@@ -1,6 +1,6 @@
 {
   "name": "x-to-css",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "convert sass/scss/less to css",
   "main": "index.js",
   "scripts": {
@@ -25,12 +25,12 @@
   },
   "homepage": "https://github.com/Paul-Browne/npm-sass-to-css#readme",
   "dependencies": {
-    "autoprefixer": "^10.3.7",
-    "cssnano": "^5.0.8",
-    "less": "^4.1.2",
-    "mime-types": "^2.1.33",
-    "postcss": "^8.3.9",
-    "sass": "^1.42.1"
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "less": "^4.1.3",
+    "mime-types": "^2.1.35",
+    "postcss": "^8.4.21",
+    "sass": "^1.57.1"
   },
   "browserslist": [
     "last 1 version",
